@@ -11,7 +11,7 @@ package object proto {
   val JobDir = "/tmp/summingbird-proto/"
   val DataDir = JobDir + "data/"
 
-  val KafkaZkConnectionString = "localhost:2181/kafka"
+  val KafkaZkConnectionString = "localhost:2181"
   val KafkaTopic = "summingbird.proto.productview"
 
   val MaxId = 10
